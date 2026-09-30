@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAZRA Online Educational Academy | Quran, Languages & Academic Tuition</title>
+  <meta name="description" content="Online Quran, language and tuition learning with a calm, professional and student-friendly approach. Live interactive online classes with simple WhatsApp enrollment.">
+  <meta name="keywords" content="NAZRA Online Educational Academy, Quran classes online, Noorani Qaida, Tajweed, Spoken English, Arabic classes, School tuition, Madrasa tuition, online learning">
+  <meta name="author" content="NAZRA Online Educational Academy">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="NAZRA Online Educational Academy">
+  <meta property="og:description" content="Online Quran, language and tuition learning with a calm, professional and student-friendly approach.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nazraacademy.com">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Lucide Icons Script -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader with Book Open & Page Turning Animation -->
+  <div id="pagePreloader" class="page-preloader" aria-label="Loading NAZRA Academy">
+    <div class="preloader-content">
+      <div class="book-loader">
+        <div class="book-spine"></div>
+        <div class="book-cover left"></div>
+        <div class="book-page page-1"></div>
+        <div class="book-page page-2"></div>
+        <div class="book-page page-3"></div>
+        <div class="book-cover right"></div>
+      </div>
+      <div class="preloader-branding">
+        <img src="assets/logo.png" alt="NAZRA Online Educational Academy" class="preloader-logo">
+        <div class="preloader-loader-bar">
+          <div class="preloader-progress"></div>
+        </div>
+        <span class="preloader-text">Opening Academy<span class="dot-anim">...</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ambient Glowing Meshes -->
+  <div class="ambient-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-notice-bar">
+    <div class="container inner">
+      <span class="notice-text-main">✨ Admissions Open for Quran, Languages & Academic Tuition</span>
+      <span class="bullet">•</span>
+      <a href="https://wa.me/919895470070?text=Hello%20NAZRA%20Academy%2C%20I%20would%20like%20to%20inquire%20about%20admissions" target="_blank" rel="noopener noreferrer" class="notice-link">
+        <i data-lucide="message-circle"></i>
+        <span>WhatsApp: +91 98954 70070</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Floating Glass Navigation Bar -->
+  <div class="navbar-wrapper">
+    <header class="glass-navbar">
+      <a href="#home" class="brand-logo" aria-label="NAZRA Online Educational Academy Home">
+        <img src="assets/logo.png" alt="NAZRA Online Educational Academy" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#learning" class="nav-link">Learning</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#why-us" class="nav-link">Why Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark and light mode" title="Toggle Theme">
+          <i data-lucide="moon" id="themeIcon"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary nav-cta">
+          <span>Start Learning</span>
+          <i data-lucide="arrow-up-right"></i>
+        </a>
+        <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div class="mobile-nav-drawer" id="mobileNavDrawer">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#learning" class="nav-link">Online Learning</a>
+        <a href="#about" class="nav-link">About Academy</a>
+        <a href="#courses" class="nav-link">Explore Courses</a>
+        <a href="#why-us" class="nav-link">Why Choose Us</a>
+        <a href="#contact" class="nav-link">Contact & Admissions</a>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 1rem; border-top: 1px solid var(--glass-border-subtle); margin-top: 0.25rem;">
+          <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-main);">Theme Mode</span>
+          <button class="theme-toggle-btn" id="mobileThemeToggleBtn" aria-label="Toggle dark/light mode">
+            <i data-lucide="moon" id="mobileThemeIcon"></i>
+          </button>
+        </div>
+        <a href="https://wa.me/919895470070" target="_blank" class="btn btn-whatsapp" style="margin-top: 0.25rem;">
+          <i data-lucide="message-circle"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </header>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- 2. OPENING / HERO SECTION (Entrance & Trust Banner) -->
+    <section id="home" class="entrance-banner-wrapper">
+      <div class="container">
+        <div class="entrance-glass-card">
+          <div class="entrance-logo-wrapper">
+            <img src="assets/logo.png" alt="NAZRA Online Educational Academy" class="entrance-logo-img">
+          </div>
+          <div class="badge-pill" style="margin-bottom: 1rem;">
+            <span class="badge-dot"></span>
+            <span>Trusted Online Academy</span>
+          </div>
+          <h1 class="entrance-main-h">Online Education for Students & Parents</h1>
+          <p class="entrance-desc">
+            Online Quran, language and tuition learning with a calm, professional and student-friendly approach.
+          </p>
+
+          <div class="feature-indicators-row">
+            <div class="indicator-item">
+              <i data-lucide="video"></i>
+              <span>Live Online Classes</span>
+            </div>
+            <div class="indicator-item">
+              <i data-lucide="sparkles"></i>
+              <span>Easy Joining Support</span>
+            </div>
+            <div class="indicator-item">
+              <i data-lucide="smartphone"></i>
+              <span>Phone, Tablet & Desktop</span>
+            </div>
+          </div>
+
+          <div class="entrance-cta-box">
+            <a href="#hero-main" class="btn btn-primary btn-lg">
+              <span>Start with NAZRA</span>
+              <i data-lucide="chevron-down"></i>
+            </a>
+            <div class="small-trust-label">
+              <i data-lucide="check-check"></i>
+              <span>WhatsApp Support • Simple Enrollment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. MAIN HERO / CONTENT SECTION -->
+    <section id="hero-main" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge-pill">
+              <span class="badge-dot"></span>
+              <span>Online Learning Reimagined</span>
+            </div>
+            <h2 class="hero-headline">
+              Learn. Grow. <span class="gradient-text">Succeed.</span>
+            </h2>
+            <p class="hero-subhead">
+              Quality online education designed to help you build knowledge and practical skills with experienced mentors and flexible scheduling.
+            </p>
+            <div class="hero-buttons">
+              <a href="#courses" class="btn btn-primary">
+                <span>Explore Courses</span>
+                <i data-lucide="book-open"></i>
+              </a>
+              <a href="#contact" class="btn btn-glass">
+                <span>Contact Us</span>
+                <i data-lucide="message-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <!-- Floating Glass Status Chips -->
+            <div class="floating-glass-chip top-left">
+              <div class="chip-avatar">
+                <i data-lucide="user-check"></i>
+              </div>
+              <div class="chip-info">
+                <h6>1-on-1 Guidance</h6>
+                <span>Personal Attention</span>
+              </div>
+            </div>
+
+            <div class="floating-glass-chip bottom-right">
+              <div class="chip-avatar gold">
+                <i data-lucide="award"></i>
+              </div>
+              <div class="chip-info">
+                <h6>Verified Teachers</h6>
+                <span>Caring & Patient</span>
+              </div>
+            </div>
+
+            <!-- Central Glass Visual Card -->
+            <div class="visual-glass-container">
+              <div class="device-preview-card">
+                <div class="device-bar">
+                  <div class="device-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="live-badge">
+                    <span class="rec-dot"></span> LIVE CLASS ACTIVE
+                  </div>
+                </div>
+
+                <div class="interactive-mockup">
+                  <div class="mockup-item">
+                    <div class="mockup-icon">
+                      <i data-lucide="book-marked"></i>
+                    </div>
+                    <h5>Quran Recitation</h5>
+                    <p>Tajweed & Hifz</p>
+                  </div>
+                  <div class="mockup-item">
+                    <div class="mockup-icon">
+                      <i data-lucide="languages"></i>
+                    </div>
+                    <h5>Languages</h5>
+                    <p>English & Arabic</p>
+                  </div>
+                  <div class="mockup-item">
+                    <div class="mockup-icon">
+                      <i data-lucide="graduation-cap"></i>
+                    </div>
+                    <h5>Tuition</h5>
+                    <p>School & Madrasa</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ONLINE LEARNING SECTION -->
+    <section id="learning" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subhead">NAZRA Learning</span>
+          <h2 class="section-title">Online Learning</h2>
+          <p class="section-description">
+            Experience friendly guidance and interactive online support tailored to your pace, schedule, and learning aspirations.
+          </p>
+        </div>
+
+        <div class="learning-categories-grid">
+          <!-- Category 1: Quran Learning -->
+          <div class="category-glass-card">
+            <div class="category-icon-wrapper">
+              <i data-lucide="book-open"></i>
+            </div>
+            <h3>Quran Learning</h3>
+            <p>Guided recitation and structured support with authentic Tajweed rules and Noorani Qaida fundamentals.</p>
+            <ul class="category-feature-list">
+              <li><i data-lucide="check"></i> Step-by-step Noorani Qaida for beginners</li>
+              <li><i data-lucide="check"></i> Accurate Makharij (pronunciation points)</li>
+              <li><i data-lucide="check"></i> Regular recitation & Hifz tracking</li>
+            </ul>
+            <a href="#courses" class="card-action-link" onclick="filterAndScroll('quran')">
+              <span>View Quran Programs</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Category 2: Language Skills -->
+          <div class="category-glass-card">
+            <div class="category-icon-wrapper">
+              <i data-lucide="messages-square"></i>
+            </div>
+            <h3>Language Skills</h3>
+            <p>English and Arabic communication practice designed to build effortless conversational fluency and confidence.</p>
+            <ul class="category-feature-list">
+              <li><i data-lucide="check"></i> Hesitation-free Spoken English coaching</li>
+              <li><i data-lucide="check"></i> Practical Arabic communication & grammar</li>
+              <li><i data-lucide="check"></i> Real-world conversation practice</li>
+            </ul>
+            <a href="#courses" class="card-action-link" onclick="filterAndScroll('language')">
+              <span>View Language Programs</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Category 3: Academic Tuition -->
+          <div class="category-glass-card">
+            <div class="category-icon-wrapper">
+              <i data-lucide="graduation-cap"></i>
+            </div>
+            <h3>Academic Tuition</h3>
+            <p>Foundation classes and subject assistance to help school and madrasa students excel in exams with confidence.</p>
+            <ul class="category-feature-list">
+              <li><i data-lucide="check"></i> Core school subjects (Maths, Science, etc.)</li>
+              <li><i data-lucide="check"></i> Madrasa curriculum & textbook assistance</li>
+              <li><i data-lucide="check"></i> Continuous parent progress reporting</li>
+            </ul>
+            <a href="#courses" class="card-action-link" onclick="filterAndScroll('academic')">
+              <span>View Tuition Programs</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ABOUT SECTION -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-banner-card">
+          <div class="about-intro-grid">
+            <div class="about-intro-text">
+              <div class="badge-pill" style="margin-bottom: 1rem;">
+                <i data-lucide="heart-handshake"></i>
+                <span>About NAZRA</span>
+              </div>
+              <h2>Simple, professional online learning with a student-focused approach</h2>
+              <p>
+                NAZRA Online Educational Academy provides dedicated, patient, and modern online coaching tailored for learners of all ages. We bridge the gap between traditional quality learning and modern digital convenience.
+              </p>
+            </div>
+
+            <div class="about-scope-box">
+              <h4 style="font-size: 1rem; margin-bottom: 0.8rem; color: var(--text-main);">Comprehensive Academy Programs:</h4>
+              <div class="about-scope-chips">
+                <span class="scope-chip">📖 Quran Studies</span>
+                <span class="scope-chip">🌱 Academic Foundation</span>
+                <span class="scope-chip">💬 Spoken English</span>
+                <span class="scope-chip">🕌 Arabic Communication</span>
+                <span class="scope-chip">📚 School Tuition</span>
+                <span class="scope-chip">✨ Madrasa Tuition</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 Pillars of NAZRA -->
+          <div class="about-pillars-grid">
+            <div class="about-pillar-item">
+              <div class="pillar-icon-box">
+                <i data-lucide="award"></i>
+              </div>
+              <h4>Experienced Teaching</h4>
+              <p>Clear, structured lessons designed for steady progress and confident learning with caring mentors.</p>
+            </div>
+
+            <div class="about-pillar-item">
+              <div class="pillar-icon-box">
+                <i data-lucide="smartphone"></i>
+              </div>
+              <h4>Flexible Online Access</h4>
+              <p>Join classes comfortably from phone, tablet, or desktop from anywhere at convenient timings.</p>
+            </div>
+
+            <div class="about-pillar-item">
+              <div class="pillar-icon-box">
+                <i data-lucide="message-circle"></i>
+              </div>
+              <h4>Direct Enrollment Support</h4>
+              <p>Students and parents can contact the academy directly on WhatsApp for seamless onboarding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. COURSES SECTION -->
+    <section id="courses" class="courses-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subhead">Explore Programs</span>
+          <h2 class="section-title">Courses</h2>
+          <p class="section-description">
+            Select a course to view details, learning outcomes, duration information, and enrollment contact options.
+          </p>
+        </div>
+
+        <!-- Course Category Filters -->
+        <div class="course-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Programs</button>
+          <button class="filter-btn" data-filter="quran">Quran Studies</button>
+          <button class="filter-btn" data-filter="language">Language Skills</button>
+          <button class="filter-btn" data-filter="academic">Academic & Madrasa Tuition</button>
+        </div>
+
+        <!-- Dynamic Course Grid (Rendered by JS) -->
+        <div class="courses-grid" id="coursesGrid">
+          <!-- Injected dynamically via app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. WHY CHOOSE US SECTION (4 HIGHLIGHTED BENEFITS) -->
+    <section id="why-us" class="why-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subhead">Why Choose Us</span>
+          <h2 class="section-title">A warm and structured learning environment for every student</h2>
+          <p class="section-description">
+            We keep learning simple, supportive and engaging for students and parents with a modern online-first approach.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Benefit 1 -->
+          <div class="why-card">
+            <div class="why-icon-emoji-box">
+              👨‍🏫
+            </div>
+            <h4>Personal Guidance</h4>
+            <p>Clear teaching and careful support that helps each student learn with confidence at their own pace.</p>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div class="why-card">
+            <div class="why-icon-emoji-box">
+              📱
+            </div>
+            <h4>Learn From Anywhere</h4>
+            <p>Mobile-friendly online classes that are easy to join from home or while travelling on any device.</p>
+          </div>
+
+          <!-- Benefit 3 -->
+          <div class="why-card">
+            <div class="why-icon-emoji-box">
+              🎯
+            </div>
+            <h4>Practical Learning</h4>
+            <p>Students build real understanding through guided lessons, active practice and regular follow-up.</p>
+          </div>
+
+          <!-- Benefit 4 -->
+          <div class="why-card">
+            <div class="why-icon-emoji-box">
+              🤝
+            </div>
+            <h4>Simple Support</h4>
+            <p>Quick WhatsApp contact and a parent-friendly process make joining smooth and comfortable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 & 9. CONTACT / ENROLLMENT & QUICK ENQUIRY FORM -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-layout-grid">
+          <!-- Contact Direct Channels -->
+          <div class="contact-info-card">
+            <div>
+              <div class="badge-pill" style="margin-bottom: 0.75rem;">
+                <i data-lucide="phone-call"></i>
+                <span>Direct Contact</span>
+              </div>
+              <h3>Ready to Start Learning? Contact NAZRA Today.</h3>
+              <p>
+                Reach out through WhatsApp to ask about available courses, class timings, and enrollment guidance.
+              </p>
+            </div>
+
+            <div class="direct-channels-list">
+              <!-- Primary WhatsApp -->
+              <a href="https://wa.me/919895470070?text=Hello%20NAZRA%20Academy%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20courses." target="_blank" class="channel-box">
+                <div class="channel-icon wa">
+                  <i data-lucide="message-circle"></i>
+                </div>
+                <div class="channel-details">
+                  <h6>Primary WhatsApp</h6>
+                  <span>+91 98954 70070</span>
+                </div>
+              </a>
+
+              <!-- Alternate WhatsApp -->
+              <a href="https://wa.me/917012558128?text=Hello%20NAZRA%20Academy%2C%20I%20would%20like%20to%20inquire%20about%20classes." target="_blank" class="channel-box">
+                <div class="channel-icon wa">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="channel-details">
+                  <h6>Alternate WhatsApp</h6>
+                  <span>+91 70125 58128</span>
+                </div>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:contact@nazraacademy.com" class="channel-box">
+                <div class="channel-icon mail">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div class="channel-details">
+                  <h6>Email Address</h6>
+                  <span>contact@nazraacademy.com</span>
+                </div>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://instagram.com/nazra_official_" target="_blank" class="channel-box">
+                <div class="channel-icon ig">
+                  <i data-lucide="instagram"></i>
+                </div>
+                <div class="channel-details">
+                  <h6>Instagram</h6>
+                  <span>@nazra_official_</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Enquiry Form (WhatsApp Lead Generator) -->
+          <div class="enquiry-glass-card">
+            <div class="form-header-box">
+              <div class="badge-pill" style="margin-bottom: 0.6rem;">
+                <i data-lucide="send"></i>
+                <span>Fast Enrollment</span>
+              </div>
+              <h3>Send a Quick Enquiry</h3>
+              <p>Fill out the form below. Submitting will instantly open WhatsApp with your pre-filled inquiry ready to send!</p>
+            </div>
+
+            <form id="quickEnquiryForm" class="enquiry-form">
+              <div class="form-group">
+                <label for="enquiryName">Student or Parent Name *</label>
+                <input type="text" id="enquiryName" class="form-control" placeholder="e.g. Mohammed Farhan / Parent" required>
+              </div>
+
+              <div class="form-group">
+                <label for="enquiryPhone">Phone / WhatsApp Number *</label>
+                <input type="tel" id="enquiryPhone" class="form-control" placeholder="e.g. +91 98954 XXXXX" required>
+              </div>
+
+              <div class="form-group">
+                <label for="enquiryCourse">Interested Course</label>
+                <select id="enquiryCourse" class="form-control">
+                  <option value="Nazra Quran & Noorani Qaida">Nazra Quran & Noorani Qaida</option>
+                  <option value="Advanced Tajweed & Recitation">Advanced Tajweed & Recitation</option>
+                  <option value="Guided Quran Hifz">Guided Quran Hifz (Memorization)</option>
+                  <option value="Spoken English & Communication">Spoken English & Communication</option>
+                  <option value="Arabic Communication & Grammar">Arabic Communication & Grammar</option>
+                  <option value="School Foundation & Subject Tuition">School Foundation & Subject Tuition</option>
+                  <option value="Madrasa Board Tuition & Support">Madrasa Board Tuition & Support</option>
+                  <option value="General Course Consultation">General Course Consultation</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="enquiryNumberChoice">Preferred WhatsApp Support Contact</label>
+                <select id="enquiryNumberChoice" class="form-control">
+                  <option value="919895470070">Primary (+91 98954 70070)</option>
+                  <option value="917012558128">Alternate (+91 70125 58128)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="enquiryMessage">Message / Specific Requirements</label>
+                <textarea id="enquiryMessage" class="form-control" rows="3" placeholder="Tell us about the student's age, grade, or preferred class timing..."></textarea>
+              </div>
+
+              <div class="whatsapp-note-badge">
+                <i data-lucide="info"></i>
+                <span>Direct WhatsApp submission: No lengthy registration forms!</span>
+              </div>
+
+              <button type="submit" class="btn btn-whatsapp" style="width: 100%; justify-content: center; padding: 1rem;">
+                <i data-lucide="send"></i>
+                <span>Send Enquiry via WhatsApp</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 10. FOOTER -->
+  <footer class="glass-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <a href="#home" class="brand-logo" style="margin-bottom: 0.5rem;">
+            <img src="assets/logo.png" alt="NAZRA Online Educational Academy" class="footer-logo-img">
+          </a>
+          <p>
+            A simple and professional online learning platform for Quran studies, language development, and academic tuition support.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#learning">Online Learning</a></li>
+            <li><a href="#about">About Academy</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Academic Streams -->
+        <div class="footer-col">
+          <h5>Programs</h5>
+          <ul class="footer-links-list">
+            <li><a href="#courses">Quran Recitation</a></li>
+            <li><a href="#courses">Tajweed Rules</a></li>
+            <li><a href="#courses">Spoken English</a></li>
+            <li><a href="#courses">Arabic Fluency</a></li>
+            <li><a href="#courses">School Tuition</a></li>
+            <li><a href="#courses">Madrasa Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact info -->
+        <div class="footer-col">
+          <h5>Contact NAZRA</h5>
+          <div class="footer-contact-items">
+            <a href="https://wa.me/919895470070" target="_blank">
+              <i data-lucide="phone"></i> +91 98954 70070
+            </a>
+            <a href="https://wa.me/917012558128" target="_blank">
+              <i data-lucide="phone"></i> +91 70125 58128
+            </a>
+            <a href="mailto:contact@nazraacademy.com">
+              <i data-lucide="mail"></i> contact@nazraacademy.com
+            </a>
+            <a href="https://instagram.com/nazra_official_" target="_blank">
+              <i data-lucide="instagram"></i> @nazra_official_
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© NAZRA Online Educational Academy. All rights reserved.</p>
+        <p>Crafted with modern Apple-inspired Glassmorphism & Minimalist UI</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/919895470070?text=Assalamu%20Alaikum%20NAZRA%20Academy%2C%20I%20would%20like%20to%20inquire%20about%20courses." target="_blank" class="floating-whatsapp-trigger" aria-label="Chat directly on WhatsApp">
+    <div class="floating-whatsapp-tooltip">Chat with NAZRA on WhatsApp</div>
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <!-- Interactive Course Details Modal (Glassmorphic) -->
+  <div class="modal-overlay" id="courseModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalCourseTitle">
+    <div class="modal-glass-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close details modal">
+        <i data-lucide="x"></i>
+      </button>
+      
+      <span class="modal-badge-tag" id="modalCourseTag">Quran Studies</span>
+      <h3 class="modal-title" id="modalCourseTitle">Course Name</h3>
+      <p class="modal-description" id="modalCourseDesc">Course description text will appear here.</p>
+
+      <div class="modal-meta-grid">
+        <div class="modal-meta-box">
+          <h6>Course Duration</h6>
+          <p id="modalDuration">3 - 6 Months</p>
+        </div>
+        <div class="modal-meta-box">
+          <h6>Class Format</h6>
+          <p id="modalFormat">1-on-1 Live Online</p>
+        </div>
+        <div class="modal-meta-box" style="grid-column: span 2;">
+          <h6>Suitable For</h6>
+          <p id="modalAudience">Students & Beginners</p>
+        </div>
+      </div>
+
+      <h4 class="modal-section-title">
+        <i data-lucide="sparkles"></i>
+        <span>Key Learning Outcomes</span>
+      </h4>
+      <ul class="modal-outcomes-list" id="modalOutcomesList">
+        <!-- Injected via JavaScript -->
+      </ul>
+
+      <div class="modal-cta-row">
+        <button class="btn btn-whatsapp" id="modalEnrollBtn">
+          <i data-lucide="message-circle"></i>
+          <span>Enroll via WhatsApp</span>
+        </button>
+        <button class="btn btn-glass" onclick="closeModal()">
+          <span>Close</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+  <script>
+    // Helper function for category card quick navigation
+    function filterAndScroll(category) {
+      const filterBtn = document.querySelector(`.filter-btn[data-filter="${category}"]`);
+      if (filterBtn) {
+        filterBtn.click();
+      }
+      const coursesSection = document.getElementById('courses');
+      if (coursesSection) {
+        coursesSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+</body>
+</html>
